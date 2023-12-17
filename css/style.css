@@ -19,6 +19,68 @@ body {
   gap: 34px;
 }
 
+.hero__container {
+  margin: -100px auto;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  gap: 80px;
+  padding-top: 128px;
+  align-items: center;
+}
+.hero__container span {
+  color: #2A2C1F;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 150% */
+  border-radius: 32px;
+  background: #E7E8E3;
+  padding: 4px 12px;
+}
+.hero__container h2 {
+  margin-top: 20px;
+  margin-bottom: 28px;
+  color: #2A2C1F;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px;
+  /* 120% */
+}
+.hero__container p {
+  color: #65665C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 21px;
+  /* 150% */
+}
+.hero__container .hero__button button {
+  margin-right: 24px;
+  color: #2A2C1F;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 13px 25px;
+  line-height: 24px;
+  /* 150% */
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #E7E8E3;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  color: #CF6F49;
+  transition: all 0.7s;
+}
+.hero__container .hero__button button:hover {
+  background-color: #CF6F49;
+  color: #fff;
+}
+
 .section__container {
   max-width: 1440px;
   display: flex;
@@ -105,37 +167,4 @@ body {
 .section__container .section__button button:hover {
   background-color: #CF6F49;
   color: #fff;
-}
-
-.article__container {
-  padding: 128px 80px 160px 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  background-color: #F5F5F2;
-}
-.article__container span {
-  color: #2A2C1F;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  /* 150% */
-  border-radius: 32px;
-  background: #E7E8E3;
-  padding: 4px 12px;
-  width: 92px;
-  margin-left: 600px;
-}
-.article__container h3 {
-  color: #2A2C1F;
-  text-align: center;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 57.6px;
-  /* 120% */
-  margin-top: 21px;
-  margin-bottom: 80px;
 }/*# sourceMappingURL=style.css.map */
